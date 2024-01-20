@@ -133,9 +133,11 @@ const XModal = () => {
                 required
               />
               <br />
+              <div>
               <button type="submit" className="submit-button">
                 Submit
               </button>
+              </div>
               <br />
             </form>
           </div>
