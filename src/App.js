@@ -78,7 +78,7 @@ const XModal = () => {
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <h1>Fill Details</h1>
             <form onSubmit={handleFormSubmit}>
-              <label htmlFor="username" required>
+              <label required>
                 Username:
               </label>
               <br />
@@ -97,7 +97,7 @@ const XModal = () => {
               </label>
               <br />
               <input
-                type="text"
+                type="email"
                 id="email"
                 value={formData.email}
                 onChange={handleChange}
@@ -133,7 +133,6 @@ const XModal = () => {
                 required
               />
               <br />
-
               <button type="submit" className="submit-button">
                 Submit
               </button>
